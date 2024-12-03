@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">ProtalkCall</string>
     <string name="recipient_hint">수신인 (이메일 주소)</string>
     <string name="subject_hint">제목</string>
     <string name="body_hint">메일 내용</string>
