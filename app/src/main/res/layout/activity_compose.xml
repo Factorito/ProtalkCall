@@ -10,22 +10,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="수신인 (이메일 주소)"
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/subjectField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="제목"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/bodyField"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="메일 내용"
+        android:inputType="textMultiLine"
+        android:minLines="5" />
 
+    <Button
+        android:id="@+id/sendButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="보내기" />
 
     <Button
         android:id="@+id/aiEditButton"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="AI 수정" />
 </LinearLayout>
